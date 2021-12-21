@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    max-width: 1200px;
+    }
+
+    .header{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-header {
+        background-color: burlywood;
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        width: 70%;      
+
+    }
+    
+    ul li {
+        display: inline;
+        justify-content:center;
+        }
+    
