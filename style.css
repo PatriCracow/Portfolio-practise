@@ -1,25 +1,45 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    max-width: 1200px;
     }
+body{
+background-color:teal;
+padding: 10px;
+}
+  .main-header{
+      background-color:beige;
+      display: flex;
+      justify-content: center;
+      
+  }  
 
-    .header{
-        display: flex;
-        justify-content: center;
-    }
-
-    .main-header {
-        background-color: burlywood;
-        display: flex;
-        list-style: none;
-        justify-content: center;
-        width: 70%;      
-
-    }
-    
+  .header_logo{
+      padding: 20px;
+      cursor: pointer; 
+  }
+  .social_nav{
+      margin-left: 30%;
+  }
+  
     ul li {
-        display: inline;
+        display:inline-flex;
         justify-content:center;
-        }
-    
+        align-items:center;
+        overflow: hidden;
+        list-style:none;
+        cursor: pointer;
+    }
+
+    ul li a {
+     color:darkgrey;
+     text-decoration:none;
+     padding: 20px;
+
+    }
+
+.break_nav{
+    width:100%;
+    height: 2px;
+    background-color: palevioletred;
+
+}
